@@ -14,6 +14,9 @@
  * Update: 11.06.13 01:42
  */
 (function(window) {
+    if (!window.history) {
+      return;
+    }
     // symlink to document
     var document = window.document;
     // HTML element
